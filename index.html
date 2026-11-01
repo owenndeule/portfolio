@@ -1,375 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Owen Ndeule - C# / ASP.NET Developer & Co-creator of Topmax Malawi College Management System">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Owen Ndeule — Software Developer | Backend & Web Development. Building web applications, APIs, and database-driven systems with C#, .NET, React, TypeScript, and Firebase. Based in Blantyre, Malawi.">
+    <meta name="robots" content="index, follow">
 
-  <!-- Canonical & Favicon -->
-  <link rel="canonical" href="https://owenndeule.github.io/portfolio/">
-  <link rel="icon" href="/favicon.ico">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://owenndeule.github.io/portfolio/">
+    <meta property="og:title" content="Owen Ndeule | Software Developer | Backend &amp; Web Development">
+    <meta property="og:description" content="Software Developer and BIT student specializing in backend and web development. Building web applications, APIs, and database-driven systems.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Owen Ndeule Portfolio">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://owenndeule.github.io/portfolio/">
-  <meta property="og:title" content="Owen Ndeule | C# / ASP.NET Developer">
-  <meta property="og:description" content="Backend Developer building reliable systems with C# and .NET. Co-creator of Topmax Malawi CMS.">
-  <meta property="og:image" content="https://owenndeule.github.io/portfolio/images/social-preview.png">
-  <meta property="og:image:secure_url" content="https://owenndeule.github.io/portfolio/images/social-preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://owenndeule.github.io/portfolio/">
+    <meta name="twitter:title" content="Owen Ndeule | Software Developer | Backend &amp; Web Development">
+    <meta name="twitter:description" content="Software Developer and BIT student specializing in backend and web development. Building web applications, APIs, and database-driven systems.">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://owenndeule.github.io/portfolio/">
-  <meta name="twitter:title" content="Owen Ndeule | C# / ASP.NET Developer">
-  <meta name="twitter:description" content="Backend Developer building reliable systems with C# and .NET. Co-creator of Topmax Malawi CMS.">
-  <meta name="twitter:image" content="https://owenndeule.github.io/portfolio/images/social-preview.png">
-
-  <title>Owen Ndeule | C# / ASP.NET Developer</title>
-
-  <link rel="stylesheet" href="style.css">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-
-  <!-- JSON-LD structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Owen Ndeule",
-    "url": "https://owenndeule.github.io/portfolio/",
-    "sameAs": [
-      "https://github.com/owenndeule"
-    ],
-    "jobTitle": "C# / ASP.NET Developer"
-  }
-  </script>
+    <title>Owen Ndeule | Software Developer | Backend & Web Development</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto">Skip to main content</a>
+    <!-- Skip to content -->
+    <a class="skip-link" href="#home">Skip to content</a>
 
-  <header>
     <!-- Navigation -->
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-      <div class="container">
-        <a href="/" class="logo">Owen Ndeule</a>
-        <button
-          id="menu-toggle"
-          class="menu-toggle"
-          aria-label="Toggle menu"
-          aria-controls="primary-navigation"
-          aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-        <ul id="primary-navigation" class="nav-links" role="menubar">
-          <li role="none"><a role="menuitem" href="#home">Home</a></li>
-          <li role="none"><a role="menuitem" href="#about">About</a></li>
-          <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
-          <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
-          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Owen Ndeule - Home">Owen<span class="logo-accent">Ndeule</span></a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" role="navigation" aria-label="Main navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <main id="main">
     <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <h1>Hi, I'm <span class="highlight">Owen Ndeule</span></h1>
-          <p class="tagline">C# / ASP.NET Developer</p>
-          <p class="hero-text">
-            Backend Developer & Co-creator of the Topmax Malawi College Management System. I build practical web systems and backend solutions using C#, ASP.NET Core, and Blazor.
-          </p>
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
-          </div>
-          <div class="hero-social" aria-hidden="false">
-            <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="mailto:owenndeule2005@gmail.com" aria-label="Email">
-              <i class="fas fa-envelope" aria-hidden="true"></i>
-            </a>
-          </div>
+    <section id="home" class="hero" aria-label="Hero section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-eyebrow">Software Developer</span>
+                    <h1 class="hero-name">Owen Ndeule</h1>
+                    <p class="hero-title">Software Developer | Backend &amp; Web Development</p>
+                    <p class="hero-intro">I'm a Software Developer and Bachelor of Information Technology student passionate about building practical software solutions. I develop web applications, APIs, and database-driven systems using C#, .NET, ASP.NET Core, React, TypeScript, and Firebase.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" aria-label="View my GitHub profile">
+                            <i class="fab fa-github"></i><span class="visually-hidden">GitHub</span>
+                        </a>
+                        <a href="mailto:owenndeule2005@gmail.com" aria-label="Send me an email">
+                            <i class="fas fa-envelope"></i><span class="visually-hidden">Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="images/owen.png" alt="Profile photo of Owen Ndeule, Software Developer">
+                </div>
+            </div>
         </div>
-        <div class="hero-image">
-          <img src="images/owen.png" alt="Owen Ndeule profile photo" loading="lazy" width="360" height="360">
-        </div>
-      </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-text">
-            <p>I am an IT technician and software developer specializing in C# and .NET technologies.</p>
-            <p>My focus is backend development, building reliable systems that solve real-world problems for businesses and institutions.</p>
-            <p>I work mainly with C#, ASP.NET Core, and Blazor to develop modern web applications and APIs. I also have experience with networking, Linux systems, and system administration.</p>
-            <p>One of my key contributions is the development of a college management system for Topmax Malawi where I helped design and implement core system features for student and administrative workflows.</p>
-          </div>
-          <div class="about-highlight" aria-hidden="false">
-            <div class="highlight-box">
-              <i class="fas fa-code" aria-hidden="true"></i>
-              <h3>Backend Specialist</h3>
-              <p>C#, ASP.NET Core, Blazor</p>
+    <section id="about" class="about" aria-label="About me">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+                <p class="section-subtitle">Background, interests, and approach to software development</p>
             </div>
-            <div class="highlight-box">
-              <i class="fas fa-database" aria-hidden="true"></i>
-              <h3>Database Expert</h3>
-              <p>SQL Server, Entity Framework</p>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I'm a Software Developer and Bachelor of Information Technology student at Blantyre International University, passionate about building practical software solutions that solve real-world problems.</p>
+                    <p>My work spans both backend and frontend development — designing and building reliable systems with C#, .NET, and ASP.NET Core, while also crafting responsive user interfaces with HTML, CSS, JavaScript, TypeScript, and React. I enjoy working with web applications, APIs, and database-driven systems, and I approach every problem by breaking it down, researching thoroughly, and iterating toward a working solution.</p>
+                    <p>Alongside development, I'm comfortable with Linux systems, networking, version control with Git, and AI-assisted development. I believe in continuous learning and experimentation.</p>
+                </div>
+                <div class="about-side reveal">
+                    <div class="highlight-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Currently Studying</h3>
+                        <p>Bachelor of Information Technology<br><span class="muted">Blantyre International University (2025–Present)</span></p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Focus</h3>
+                        <p>Backend &amp; web development</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Approach</h3>
+                        <p>Practical solutions, continuous learning, experimentation</p>
+                    </div>
+                </div>
             </div>
-            <div class="highlight-box">
-              <i class="fas fa-server" aria-hidden="true"></i>
-              <h3>System Admin</h3>
-              <p>Linux, Networking</p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-      <div class="container">
-        <h2 class="section-title">My Skills</h2>
-        <div class="skills-grid">
-          <!-- Backend Development -->
-          <div class="skill-category">
-            <h3><i class="fas fa-server" aria-hidden="true"></i> Backend Development</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">C#</span>
-              <span class="skill-tag">ASP.NET Core</span>
-              <span class="skill-tag">Blazor</span>
-              <span class="skill-tag">REST API</span>
-              <span class="skill-tag">LINQ</span>
-              <span class="skill-tag">OOP</span>
+    <!-- Technical Expertise Section -->
+    <section id="skills" class="skills" aria-label="Technical expertise">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Technical <span class="accent">Expertise</span></h2>
+                <p class="section-subtitle">Technologies I work with</p>
             </div>
-          </div>
-
-          <!-- Frontend -->
-          <div class="skill-category">
-            <h3><i class="fas fa-palette" aria-hidden="true"></i> Frontend</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">HTML5</span>
-              <span class="skill-tag">CSS3</span>
-              <span class="skill-tag">Blazor Components</span>
-              <span class="skill-tag">Responsive Design</span>
-              <span class="skill-tag">JavaScript</span>
+            <div class="expertise-grid">
+                <div class="expertise-card reveal">
+                    <div class="expertise-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <div class="tech-list">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>ASP.NET Core</span>
+                        <span>REST APIs</span>
+                        <span>Entity Framework Core</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="expertise-card reveal">
+                    <div class="expertise-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <div class="tech-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Blazor</span>
+                    </div>
+                </div>
+                <div class="expertise-card reveal">
+                    <div class="expertise-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="tech-list">
+                        <span>MySQL</span>
+                        <span>SQL Server</span>
+                    </div>
+                </div>
+                <div class="expertise-card reveal">
+                    <div class="expertise-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="tech-list">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Linux</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+                <div class="expertise-card reveal">
+                    <div class="expertise-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Additional Skills</h3>
+                    <div class="tech-list">
+                        <span>AI Collaboration</span>
+                        <span>Networking</span>
+                        <span>Cybersecurity</span>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <!-- Database -->
-          <div class="skill-category">
-            <h3><i class="fas fa-database" aria-hidden="true"></i> Database</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">Database Design</span>
-              <span class="skill-tag">Entity Framework</span>
-              <span class="skill-tag">SQL</span>
-            </div>
-          </div>
-
-          <!-- Tools & Technologies -->
-          <div class="skill-category">
-            <h3><i class="fas fa-tools" aria-hidden="true"></i> Tools & Technologies</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">Git</span>
-              <span class="skill-tag">GitHub</span>
-              <span class="skill-tag">Linux</span>
-              <span class="skill-tag">Networking</span>
-              <span class="skill-tag">System Admin</span>
-              <span class="skill-tag">Visual Studio</span>
-            </div>
-          </div>
         </div>
-
-        <!-- Tech Stack Banner -->
-        <div class="tech-stack" aria-hidden="true">
-          <span>C#</span>
-          <span>ASP.NET Core</span>
-          <span>Blazor</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>MySQL</span>
-          <span>Git</span>
-          <span>Linux</span>
-        </div>
-      </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-
-        <div class="featured-project">
-          <div class="project-info">
-            <h3>Topmax Malawi College Management System</h3>
-            <p class="project-role"><i class="fas fa-user" aria-hidden="true"></i> Backend Developer &amp; Co-creator</p>
-            <p class="project-description">A full college management system developed for Topmax Malawi to help manage students, academic records, and administrative operations. The system centralizes student data, courses, and administrative reporting.</p>
-
-            <h4>Key Features</h4>
-            <ul class="project-features">
-              <li><i class="fas fa-check" aria-hidden="true"></i> Student registration and management</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Course and class management</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Administrative dashboard</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Secure authentication system</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Data management and reporting</li>
-            </ul>
-
-            <h4>Technologies Used</h4>
-            <div class="project-tags">
-              <span>C#</span>
-              <span>ASP.NET Core</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>MySQL</span>
+    <section id="projects" class="projects" aria-label="Featured projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Selected work</p>
             </div>
+            <div class="projects-grid">
+                <!-- Project 1: Topmax Malawi -->
+                <article class="project-card reveal">
+                    <div class="project-media">
+                        <div class="screenshot">
+                            <img src="images/login.png" alt="Topmax Malawi login page">
+                        </div>
+                        <div class="screenshot">
+                            <img src="images/admin-dashboard.png" alt="Topmax Malawi admin dashboard">
+                        </div>
+                        <div class="screenshot">
+                            <img src="images/student-management.png" alt="Topmax Malawi student management">
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Topmax Malawi College Management System</h3>
+                        <p class="project-meta"><span class="role-badge">Lead Developer</span> · Topmax Professional Studies</p>
+                        <p class="project-description">A college management system developed to streamline student registration, academic records, course management, and administrative operations.</p>
+                        <h4 class="project-sub">Key Features</h4>
+                        <ul class="feature-list">
+                            <li>Student management</li>
+                            <li>Course and class management</li>
+                            <li>Administrative dashboard</li>
+                            <li>Authentication and access control</li>
+                            <li>Academic records management</li>
+                        </ul>
+                        <h4 class="project-sub">Technologies</h4>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://topmaxmalawi.com" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Website <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </article>
 
-            <div class="project-links">
-              <a href="https://topmaxmalawi.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> View Project</a>
-              <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+                <!-- Project 2: Essie Wigs -->
+                <article class="project-card reveal">
+                    <div class="project-media">
+                        <div class="screenshot">
+                            <img src="images/Essie%20wigs%20gallery%20and%20mobile%20view%20.png" alt="Essie Wigs gallery and mobile view">
+                        </div>
+                        <div class="screenshot">
+                            <img src="images/Essie%20wigs%20responsive.png" alt="Essie Wigs responsive view">
+                        </div>
+                        <div class="screenshot">
+                            <img src="images/Essie%20wigs%20services.png" alt="Essie Wigs services">
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Essie Wigs</h3>
+                        <p class="project-meta"><span class="role-badge">Lead Developer</span></p>
+                        <p class="project-description">A responsive business website for Essie Wigs showcasing wig products and hair services, with a gallery, testimonials, and WhatsApp appointment booking.</p>
+                        <h4 class="project-sub">Key Features</h4>
+                        <ul class="feature-list">
+                            <li>Service listings</li>
+                            <li>Product and image gallery</li>
+                            <li>WhatsApp appointment integration</li>
+                            <li>Client testimonials</li>
+                            <li>Responsive design</li>
+                        </ul>
+                        <h4 class="project-sub">Technologies</h4>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://essiewigs.netlify.app/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">View Website <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </article>
             </div>
-          </div>
-
-          <div class="project-screenshots" aria-hidden="false">
-            <div class="screenshot">
-              <img src="images/login.png" alt="Topmax login page" loading="lazy" width="400">
-              <span>Login Page</span>
-            </div>
-            <div class="screenshot">
-              <img src="images/admin-dashboard.png" alt="Topmax admin dashboard" loading="lazy" width="400">
-              <span>Dashboard</span>
-            </div>
-            <div class="screenshot">
-              <img src="images/student-management.png" alt="Topmax student management" loading="lazy" width="400">
-              <span>Student Management</span>
-            </div>
-          </div>
         </div>
+    </section>
 
-        <div class="featured-project">
-          <div class="project-info">
-            <h3>Essie Wigs</h3>
-            <p class="project-role"><i class="fas fa-user" aria-hidden="true"></i> Lead Developer (Client: Esnart Ndeule)</p>
-            <p class="project-description">A professional website developed for Essie Wigs, offering premium wig sales and comprehensive hair services. The site showcases services, gallery, and booking options.</p>
-
-            <h4>Key Features</h4>
-            <ul class="project-features">
-              <li><i class="fas fa-check" aria-hidden="true"></i> Service Listings (Selling, Making, Installation, Revamping)</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> WhatsApp Appointment Booking Integration</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Interactive Image Gallery & Work Showcase</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Client Testimonials & Business Information</li>
-              <li><i class="fas fa-check" aria-hidden="true"></i> Fully Responsive Design for all devices</li>
-            </ul>
-
-            <h4>Technologies Used</h4>
-            <div class="project-tags">
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>JavaScript</span>
+    <!-- Experience Section -->
+    <section id="experience" class="experience" aria-label="Experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Professional development contributions</p>
             </div>
-
-            <div class="project-links">
-              <a href="https://essiewigs.netlify.app/" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> View Project</a>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Topmax Professional Studies</h3>
+                        <p class="timeline-role">Lead Developer</p>
+                        <p>Led development of the Topmax Malawi College Management System, streamlining student registration, academic records, course management, and administrative operations. Built with React, TypeScript, and Firebase.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Essie Wigs</h3>
+                        <p class="timeline-role">Lead Developer</p>
+                        <p>Led the end-to-end development of a responsive business website for Essie Wigs, showcasing products and services, an image gallery, client testimonials, and WhatsApp appointment booking.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="project-screenshots" aria-hidden="false">
-            <div class="screenshot">
-              <img src="images/Essie%20wigs%20gallery%20and%20mobile%20view%20.png" alt="Essie Wigs gallery and mobile view" loading="lazy" width="400">
-              <span>Gallery & Mobile</span>
-            </div>
-            <div class="screenshot">
-              <img src="images/Essie%20wigs%20responsive.png" alt="Essie Wigs responsive view" loading="lazy" width="400">
-              <span>Responsive View</span>
-            </div>
-            <div class="screenshot">
-              <img src="images/Essie%20wigs%20services.png" alt="Essie Wigs services page" loading="lazy" width="400">
-              <span>Our Services</span>
-            </div>
-          </div>
         </div>
+    </section>
 
-      </div>
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements" aria-label="Achievements">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Recognitions and competition results</p>
+            </div>
+            <div class="achievement-card reveal">
+                <div class="achievement-badge">
+                    <i class="fas fa-trophy"></i>
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="achievement-body">
+                    <h3>University Students Cyberdrill 2026</h3>
+                    <p class="achievement-event">Blantyre International University &middot; Competition Team &middot; October 2026</p>
+                    <p>Represented Blantyre International University as part of its competition team in cybersecurity challenges spanning OSINT, web security, digital forensics, networking, cryptography, and reverse engineering.</p>
+                    <p><strong>Team achievement:</strong> Second place</p>
+                    <p><strong>Recognition:</strong> Medal and trophy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education" aria-label="Education">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic background</p>
+            </div>
+            <div class="education-grid reveal">
+                <article class="education-card">
+                    <div class="education-meta">
+                        <span class="education-date">2025 – Present</span>
+                        <span class="education-type">Bachelor's Degree</span>
+                    </div>
+                    <h3>Bachelor of Information Technology</h3>
+                    <p class="education-school">Blantyre International University</p>
+                    <p class="education-location">Blantyre, Malawi</p>
+                    <p>Currently pursuing a Bachelor of Information Technology, building the foundation for a career in software development and backend engineering.</p>
+                </article>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-content">
-          <div class="contact-info">
-            <h3>Let's Connect</h3>
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-            <div class="contact-details">
-              <div class="contact-item">
-                <i class="fas fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:owenndeule2005@gmail.com">owenndeule2005@gmail.com</a>
-              </div>
-              <div class="contact-item">
-                <i class="fab fa-github" aria-hidden="true"></i>
-                <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer">github.com/owenndeule</a>
-              </div>
+    <section id="contact" class="contact" aria-label="Contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Let's connect</p>
             </div>
-            <div class="social-links">
-              <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <i class="fab fa-github" aria-hidden="true"></i>
-              </a>
-              <a href="mailto:owenndeule2005@gmail.com" aria-label="Email">
-                <i class="fas fa-envelope" aria-hidden="true"></i>
-              </a>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Get in Touch</h3>
+                    <p>I'm open to internship opportunities, software development collaborations, and professional connections. Feel free to reach out via email or GitHub.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <a href="mailto:owenndeule2005@gmail.com" aria-label="Send email">
+                                <i class="fas fa-envelope"></i> owenndeule2005@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                                <i class="fab fa-github"></i> github.com/owenndeule
+                            </a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-map-marker-alt"></i> Blantyre, Malawi</span>
+                        </li>
+                    </ul>
+                    <div class="contact-social">
+                        <a href="https://github.com/owenndeule" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:owenndeule2005@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-open reveal">
+                    <h3>I'm Open To</h3>
+                    <ul class="open-list">
+                        <li><i class="fas fa-briefcase"></i> Internship opportunities</li>
+                        <li><i class="fas fa-code-branch"></i> Software development collaborations</li>
+                        <li><i class="fas fa-handshake"></i> Professional connections</li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-
-        <!-- Tagline -->
-        <div class="tagline-banner">
-          <p>Building reliable systems with C# and .NET.</p>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> 2026 Owen Ndeule. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer" aria-label="Footer">
+        <div class="container">
+            <p>&copy; 2026 Owen Ndeule. All rights reserved.</p>
+        </div>
+    </footer>
 
-  <!-- External script (deferred) -->
-  <script src="script.js" defer></script>
-
-  <!-- Small inline scripts: menu toggle and year -->
-  <script>
-    (function () {
-      // Menu toggle for accessibility: updates aria-expanded
-      var menuToggle = document.getElementById('menu-toggle');
-      var nav = document.getElementById('primary-navigation');
-      if (menuToggle && nav) {
-        menuToggle.addEventListener('click', function () {
-          var expanded = this.getAttribute('aria-expanded') === 'true';
-          this.setAttribute('aria-expanded', String(!expanded));
-          nav.classList.toggle('open');
-        });
-      }
-
-      // Set copyright year
-      var yearEl = document.getElementById('year');
-      if (yearEl) yearEl.textContent = new Date().getFullYear();
-    })();
-  </script>
+    <script src="script.js"></script>
 </body>
 </html>
